@@ -16,10 +16,11 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version = '>= 2.0.0'
   spec.require_paths = ['lib']
   spec.files = ["lib/cielo/api30.rb",
-                "lib/cielo/environment.rb",
-                "lib/cielo/merchant.rb",
+                "lib/cielo/api30/environment.rb",
+                "lib/cielo/api30/merchant.rb",
                 "lib/cielo/api30/address.rb",
                 "lib/cielo/api30/credit_card.rb",
+                "lib/cielo/api30/debit_card.rb",
                 "lib/cielo/api30/customer.rb",
                 "lib/cielo/api30/payment.rb",
                 "lib/cielo/api30/recurrent_payment.rb",

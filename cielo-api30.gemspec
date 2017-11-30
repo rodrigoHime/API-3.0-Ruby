@@ -3,7 +3,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'cielo/api30/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'cielo-api30'
+  spec.name          = 'cielo-api30-bmd'
   spec.version       = Cielo::API30::VERSION
   spec.authors       = ['Cielo']
   spec.email         = ['desenvolvedores@cielo.com.br']
@@ -19,6 +19,7 @@ Gem::Specification.new do |spec|
                 "lib/cielo/api30/environment.rb",
                 "lib/cielo/api30/merchant.rb",
                 "lib/cielo/api30/client.rb",
+                "lib/cielo/api30/payment/status.rb",
                 "lib/cielo/api30/address.rb",
                 "lib/cielo/api30/credit_card.rb",
                 "lib/cielo/api30/debit_card.rb",
